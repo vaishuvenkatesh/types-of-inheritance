@@ -1,0 +1,17 @@
+class Frd{
+    int frd_no=20;
+}
+class Family extends Frd{
+    int fam_no=30;
+}
+class Relative extends Family{
+    int rel_no=40;
+}
+public class Main{
+    public static void main(String[]args){
+        Relative obj=new Relative();
+        System.out.println(obj.frd_no);
+        System.out.println(obj.fam_no);
+        System.out.println(obj.rel_no);
+    }
+}
